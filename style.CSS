@@ -1,5 +1,6 @@
 body{
-    margin: 0em;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 h1{
@@ -8,22 +9,19 @@ h1{
 .link{
     text-decoration: none;
     color: royalblue;
-    background-image: linear-gradient(yellow gold);
+    background-image: linear-gradient(yellow, gold);
     border-radius: 5px;
     padding: 15px 25px;
     font-weight: 700;
     border: rgb(255, 62, 152);
 }
 
-.top{background-image:url(header-bg.png)
-    
-}
-     
-.im{ width: 45%;
-    padding: 3%;
-    margin: 3%;
-    float: left;}
-    .hedar{
-        float: left;
+.top{
+    background-image:url("header-bg.png");
     }
-
+     
+.header{ width: 40%;
+    padding: 3%;
+    margin: 2%;
+    float: left;}
+    
