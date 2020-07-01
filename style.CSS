@@ -59,14 +59,104 @@ h1{font-size: 40px;
 
     }
     .Work-section h1{text-align: center;
+        
      }
-     .Work-img{
-         width: 20%;
-         height: fit-content;
-         margin: 2%;
-     }
+     
+     .footer-section{
+        clear: both;
+        height: 300px;
+        background-image: url("footer-bg.png");
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
     
-
-
+    .comment-box{
+        border:5px solid;
+        margin:  0 2%;
+        padding: 5px;
+        border-radius: 10px;
+        padding-bottom: 10px;}
+       
     
-
+        
+    .footer-section{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 80px;   
+    }
+    
+    .footer-section h2{
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    
+    .footer-section p{
+        text-align: center;
+    }
+    
+    .footer-section #position{
+        color: dimgray;
+        margin-bottom: 30px;
+        
+    }
+    
+    .footer-section #comment{
+        margin: 0 25% ;
+        font-weight: 700;
+        font-size: 13px;
+        color: rgb(75, 74, 74);
+    }
+    
+    
+    .email-box{
+        margin: 10% 20%;
+        padding: 5% 8%;
+        background-image: linear-gradient( to bottom, rgb(195, 14, 240) , rgb(192, 148, 212));
+        color: white;
+        border-radius: 50px;
+    }
+    
+    .email-box .message{
+        margin-bottom: 20px;
+    }
+    
+    .email-box .email{
+        font-size: 35px;
+        font-weight: bold;
+        background-image: linear-gradient(to top, rgb(195, 14, 240) , rgb(192, 148, 212));
+        padding: 5px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .email-box .email:hover{
+        background-image: linear-gradient(to bottom, rgb(48, 14, 240) , rgb(65, 65, 226));
+    }
+    
+    #bottom-line{
+        color: dimgray;
+        text-align: center;
+        bottom:0;
+        font-size: 13px;
+    }
+    
+    #updete{
+        clear: both;
+        background-image: url("latest-work-bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .floatnypic{
+        float: left;
+    width: 25%;
+    height:auto;
+    margin: 3%;
+    border-top: 8px solid; 
+    border-image:linear-gradient(  rgb(164, 220, 228), rgb(54, 54, 235); }
+    
+    
